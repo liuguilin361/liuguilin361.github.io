@@ -1,0 +1,29 @@
+base_url = "https://liuguilin361.github.io"
+title = "liuguilin"
+build_search_index = true
+generate_feeds = true
+minify_html = true
+
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-light"
+
+[extra]
+use_cdn = false
+theme = "toggle"
+
+menu = [
+    { name = "/posts", url = "/posts", weight = 1 },
+    { name = "/tags", url = "/tags", weight = 2 },
+    { name = "/projects", url = "/projects", weight = 3 },
+    { name = "/talks", url = "/talks", weight = 4 },
+    { name = "/about", url = "/about", weight = 5 },
+]
+
+socials = [
+    { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
+    { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
+]
